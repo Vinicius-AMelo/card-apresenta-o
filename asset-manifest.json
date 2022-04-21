@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aeb89b2f.css",
+    "main.js": "/static/js/main.b34b307a.js",
+    "static/media/quadrada.jpg": "/static/media/quadrada.451eb565826931083337.jpg",
+    "index.html": "/index.html",
+    "main.aeb89b2f.css.map": "/static/css/main.aeb89b2f.css.map",
+    "main.b34b307a.js.map": "/static/js/main.b34b307a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb89b2f.css",
+    "static/js/main.b34b307a.js"
+  ]
+}
