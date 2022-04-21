@@ -1,0 +1,58 @@
+.container-info{ 
+    background-color: #1A1B21;
+    width: 317px;
+    margin: auto;
+}
+.foto{
+    background-image: url(./images/quadrada.jpg);
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.infos{
+    max-width: 317px;
+    background-color: #1A1B21;
+}
+
+.nome-completo{
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+.cargo{
+    padding-bottom: 20px;
+    text-align: center;
+    color: #2d802d;
+}
+button{   
+    border: none;
+    border-radius: 7.5px;
+    height: 34px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+span{
+    display: flex;  
+    justify-content: space-evenly;   
+}
+.email{
+    background-color: #fff;
+}
+
+.email:hover{
+background-color: #ffffffe0;
+}
+
+.linkedin{  
+    background-color: #5093E2;
+    color: #fff;  
+}
+
+.linkedin:hover{
+    background-color: #5093E2E0;
+}

@@ -1,0 +1,22 @@
+.container-about {
+    background-color: #1A1B21;
+    width: 317px;
+    margin: auto;
+}
+
+.main-about {
+    padding: 25px 35px;
+}
+
+.titulo {
+    padding: 10px 0;
+    margin: auto;
+    color: #fff;
+}
+
+.conteudo {
+    color: #fff;
+    font-family: 'Inter';
+    line-height: 150%;
+    font-size: small;
+}
