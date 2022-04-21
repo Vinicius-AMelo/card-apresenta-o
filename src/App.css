@@ -1,3 +1,25 @@
+:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #1A1B21;
+    --footer-bg: #161619;
+    --name-color: #ffffff ;
+    --sec-color: #F5F5F5;
+    --p-color: #DCDCDC;
+    --icon-color: #918E9B;
+
+}
+.dark-mode:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #F5F5F5;
+    --footer-bg: #D5D4D8;
+    --name-color: #2B283A ;
+    --sec-color: #2B283A;
+    --p-color: #4A4E74;
+    --icon-color: #918E9B;
+}
+
 *{
     text-decoration: none;
     margin: 0;
@@ -7,13 +29,21 @@
 }
 
 body{
+    
     padding: 30px 0;
-    background-color: #1c1c1c;
+    background-color: var(--body-bg);
 }
 
 .main-app{
-    background-color: #23252C;
+    background-color: var(--card-bg);
     max-width: 550px;
     margin: 0 auto;
     padding: 30px 0;
+}
+
+.dark-theme{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 20px 0;
+    color: var(--icon-color);
 }

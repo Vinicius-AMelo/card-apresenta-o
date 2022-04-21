@@ -1,8 +1,15 @@
+import React from 'react';
 import './info.css'
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa'
+
+
+
 export default function Info() {
+
+    
+
     return (
-        <div className='container-info'>
+        <div className='container-info'>           
             <div className='foto'>
             </div>
             <div className='infos'>

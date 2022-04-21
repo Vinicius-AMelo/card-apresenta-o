@@ -1,23 +1,48 @@
+:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #1A1B21;
+    --footer-bg: #161619;
+    --name-color: #ffffff ;
+    --sec-color: #F5F5F5;
+    --p-color: #DCDCDC;
+    --icon-color: #918E9B;
+    --mail-b-color: #5093E2;
+
+}
+.dark-mode:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #F5F5F5;
+    --footer-bg: #D5D4D8;
+    --name-color: #2B283A ;
+    --sec-color: #2B283A;
+    --p-color: #4A4E74;
+    --icon-color: #918E9B;
+}
+
+
 .container-info{ 
-    background-color: #1A1B21;
     width: 317px;
     margin: auto;
+    
 }
+
 .foto{
-    background-image: url(./images/quadrada.jpg);
+    background-image: url(./images/blue-quad.jpg);
     height: 317px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .infos{
     max-width: 317px;
-    background-color: #1A1B21;
+    background-color: var(--info-bg);
 }
 
 .nome-completo{
     padding: 10px 0;
     text-align: center;
-    color: #fff;
+    color: var(--name-color);
 }
 .cargo{
     padding-bottom: 20px;
@@ -25,7 +50,7 @@
     color: #2d802d;
 }
 button{   
-    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.486);
     border-radius: 7.5px;
     height: 34px;
     width: 115px;
@@ -41,11 +66,12 @@ span{
     justify-content: space-evenly;   
 }
 .email{
-    background-color: #fff;
+    background-color: var(--);
+    color: #1E1F26;
 }
 
 .email:hover{
-background-color: #ffffffe0;
+background-color: #dcdcdce2;
 }
 
 .linkedin{  

@@ -1,5 +1,27 @@
+:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #1A1B21;
+    --footer-bg: #161619;
+    --name-color: #ffffff ;
+    --sec-color: #F5F5F5;
+    --p-color: #DCDCDC;
+    --icon-color: #918E9B;
+
+}
+.dark-mode:root{
+    --body-bg: #1c1c1c;
+    --card-bg: #23252C;
+    --info-bg: #F5F5F5;
+    --footer-bg: #D5D4D8;
+    --name-color: #2B283A ;
+    --sec-color: #2B283A;
+    --p-color: #4A4E74;
+    --icon-color: #918E9B;
+}
+
 .container-about {
-    background-color: #1A1B21;
+    background-color: var(--info-bg);
     width: 317px;
     margin: auto;
 }
@@ -11,11 +33,11 @@
 .titulo {
     padding: 10px 0;
     margin: auto;
-    color: #fff;
+    color: var(--sec-color);
 }
 
 .conteudo {
-    color: #fff;
+    color: var(--p-color);
     font-family: 'Inter';
     line-height: 150%;
     font-size: small;
