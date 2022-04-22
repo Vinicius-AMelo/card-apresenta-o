@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/card-apresenta-o/static/css/main.9b42a3dd.css",
-    "main.js": "/card-apresenta-o/static/js/main.14d1c578.js",
+    "main.js": "/card-apresenta-o/static/js/main.b796525d.js",
     "static/media/blue-quad.jpg": "/card-apresenta-o/static/media/blue-quad.7e5b72fc290c4f30e93f.jpg",
     "index.html": "/card-apresenta-o/index.html",
     "main.9b42a3dd.css.map": "/card-apresenta-o/static/css/main.9b42a3dd.css.map",
-    "main.14d1c578.js.map": "/card-apresenta-o/static/js/main.14d1c578.js.map"
+    "main.b796525d.js.map": "/card-apresenta-o/static/js/main.b796525d.js.map"
   },
   "entrypoints": [
     "static/css/main.9b42a3dd.css",
-    "static/js/main.14d1c578.js"
+    "static/js/main.b796525d.js"
   ]
 }
