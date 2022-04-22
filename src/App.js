@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className='main-app'>
       <div className='dark-theme'>
-      <label ><input onChange={chageColorMode} type='checkbox'></input> Tema Escuro</label>
+      <label ><input onChange={chageColorMode} type='checkbox'></input> Tema Claro</label>
       </div>
       <Info />
       <About />
