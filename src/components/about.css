@@ -1,4 +1,4 @@
-:root{
+.dark-mode:root{
     --body-bg: #1c1c1c;
     --card-bg: #23252C;
     --info-bg: #1A1B21;
@@ -9,7 +9,7 @@
     --icon-color: #918E9B;
 
 }
-.dark-mode:root{
+:root{
     --body-bg: #1c1c1c;
     --card-bg: #23252C;
     --info-bg: #F5F5F5;

@@ -9,11 +9,15 @@ export default function App() {
 
   function chageColorMode() {
     html.classList.toggle('dark-mode')
-}
+  }
   return (
     <div className='main-app'>
       <div className='dark-theme'>
-      <label ><input onChange={chageColorMode} type='checkbox'></input> Tema Claro</label>
+      <p id='dark-theme-name'>Dark Mode</p> 
+        <label className='switch'> 
+          <input onChange={chageColorMode} type='checkbox'></input>
+          <span className='slider'></span>
+        </label>
       </div>
       <Info />
       <About />
