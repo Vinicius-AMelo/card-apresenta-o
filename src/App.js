@@ -3,6 +3,7 @@ import Info from './components/info'
 import About from './components/about'
 import Footer from './components/footer'
 
+
 const html = document.querySelector('html')
 
 export default function App() {
